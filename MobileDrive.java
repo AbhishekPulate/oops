@@ -1,0 +1,14 @@
+class MobileDrive
+{
+	public static void main(String [] args)
+	{
+		Mobile m1 = new Mobile();
+		m1.brand = "Apple";
+		m1.displayMobile();
+
+		System.out.println("--------------------------------------");
+
+		Mobile m12 = new Mobile();
+		m12.displayMobile();
+	}
+}

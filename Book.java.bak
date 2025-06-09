@@ -1,0 +1,18 @@
+class Book
+{
+	String brand;
+	int pages;
+	double price;
+	String type;
+	int gsm;
+	String size;
+
+	public void displayBook()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("price: "+price);
+		System.out.println("pages: "+pages);
+		System.out.println("Type: "+type);
+		System.out.println("Size: "+size);
+		System.out.println("GSM: "+gsm);
+}

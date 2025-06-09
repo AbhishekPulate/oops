@@ -1,0 +1,10 @@
+class Pr1Driver
+{
+	public static void main(String [] args)
+	{
+		Pr1 p = new Pr1();
+		System.out.println(p.name);
+		System.out.println(Pr1.name);
+		System.out.println(p.brand);
+	}
+}

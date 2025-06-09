@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class NSBlock
+{
+	String brand ;
+	String name ;
+	double price ;
+	double cap ;
+
+	{
+		System.out.println("Enter the capacity: ");
+		cap= new Scanner(System.in).nextDouble();
+	}
+	{
+		if (cap<500)
+		{
+			price = 100;
+		}
+		else if (cap==500)
+		{
+			price = 200;
+		}
+		else
+			price = 300;
+	}
+	public void displayBlock()
+	{
+		System.out.println("BRAND: "+brand);
+		System.out.println("NAME: "+name);
+		System.out.println("PRICE: "+price);
+		System.out.println("CAPACITY: "+cap);
+	}
+}
+

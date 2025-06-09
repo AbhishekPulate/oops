@@ -1,0 +1,22 @@
+class Mobile
+{
+	String brand;
+	String modelName;
+	double Price;
+	double size;
+	String os;
+	int ram;
+	int rom;
+	String processor;
+
+	public void displayMobile()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("Model Name: "+modelName);
+		System.out.println("Price: "+Price);
+		System.out.println("OS: "+os);
+		System.out.println("Size: "+size);
+		System.out.println("Ram & Rom: "+ram+"/"+rom);
+		System.out.println("Processor: "+processor);
+	}
+}
